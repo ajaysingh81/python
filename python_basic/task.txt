@@ -1,0 +1,151 @@
+************************************ IF-ELSE SYNTAX****************************
+
+IF condition:
+     STATEMENT 1    
+     statment n 
+
+ else: 
+     statement1 
+     statment n 
+
+EXAMPAL:-
+
+road = input("is the road blocked?")
+if road =='blocked':
+    print("go with the other root")
+
+else: 
+    print("Road is not blocked")
+
+
+********************************** IF-ELIF-ELSE SYNTAX *****************************
+
+ if condition:
+     statement1
+ elif condition:
+     statement
+ else:
+     statment
+
+EXAMPAL:- 
+if road == "blocked":
+    print("go with the other route")
+
+elif road == "part":
+    print("road is partially blocked you can go this road")
+
+else:
+    print("you can go this route")
+
+
+
+
+************************************** NESTED IF-ELSE ********************************
+
+if condition:
+     statement
+     if condition:
+         statement
+     else:
+         statement
+else:
+     statement
+
+EXAMPAL:-
+
+n = int(input("Enter a no. :-"))
+
+if n>=0:
+    if n==0:
+        print("number is not positive but zero")
+    else:
+        print("number is positive")
+else:
+    print("number is not positive")
+
+
+************************************USER DEFINED FUNCTION*********************************
+
+
+syntax:- 
+
+def funtion_name(parameters):
+     body
+
+calling the Funtion
+ 
+funtion_name(arguments):
+
+EXAMPAL:-
+def sum_mul(a,b):
+    print("mul is:-",a*b)
+    print("div is:-",a/b)
+sum_mul(23,3)
+
+
+
+
+************************************** FOR LOOP ******************************************
+
+syntax:-
+for variable(iterator) in funtion:
+     statement
+
+EXAMPAL:-
+for i in range(1,10):
+    print(2*i)
+
+
+****************************************** WHILE LOOP SYNTAX ************************************
+
+syntax:-
+
+ initialize iterator 
+ while condition:
+     statement
+     incremnt 
+
+
+EXAMPAL:-
+i = 0
+while i<5:
+    print("python")
+    i = i+1
+
+***************************************** OOP'S  = CLASS SYNTAX ***********************************************
+
+OBJECT SYNTAX :-
+     object_name = class_name()
+
+MATHOD SYNTAX :-
+     def mathod_name(self,parameters):
+        body
+
+CLASS SYNTAX:-
+     
+     how to create class
+
+    Class class_name:
+        body
+
+EXAMPAL:-
+
+    Class class_name:
+      def method_name(self, parameters):         
+        body
+
+    object_name = class_name()
+
+EXAMPAL:- 
+
+class add:
+     def sum(self,a,b):
+         print(f"sum is { a+b}")
+         print("sum is {0} and {1} is {2}".format(a,b,a+b))
+
+obj = add()
+obj.sum(23,30)
+
+
+    
+
